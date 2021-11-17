@@ -1,4 +1,25 @@
-body{
-    background: white;
-    color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img{
+    height: 300px;
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+section{
+    background: rgb(124, 71, 71);
+    color: rgb(160, 98, 98);
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
